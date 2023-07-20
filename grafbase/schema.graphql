@@ -1,0 +1,10 @@
+type Post @model {
+  title: String!
+  url: URL! @unique
+  comments: [Comment]
+}
+
+type Comment @model {
+  message: String!
+  post: Post
+}
