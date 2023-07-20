@@ -49,10 +49,10 @@
     root.render(
       React.createElement(GraphiQL, {
         fetcher: GraphiQL.createFetcher({
-          url: 'http://localhost:4000/graphql',
+          url: 'https://basenews-main-andystevenson.grafbase.app/graphql',
           headers: {
             "content-type": "application/json",
-            "x-api-key": "aaaa",
+            "x-api-key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk4NDk1ODIsImlzcyI6ImdyYWZiYXNlIiwiYXVkIjoiMDFINVNFNE40MVdTUURBUE5OV0dFTjE4MFMiLCJqdGkiOiIwMUg1U0U0TjhEQjJEWDQxS1Q0MUtDOTIzUiIsImVudiI6InByb2R1Y3Rpb24iLCJwdXJwb3NlIjoicHJvamVjdC1hcGkta2V5In0.BulrQzQ-iy9Fa0ufkbnGgVjYHwzoegGyQhK036k7EYA",
           },
         }),
         defaultEditorToolsVisibility: true,
